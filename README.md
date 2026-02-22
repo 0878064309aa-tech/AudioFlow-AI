@@ -1,11 +1,26 @@
-<div align="center">
+# AudioFlow AI
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Professional audio transcription and segmentation tool.
 
-  <h1>Built with AI Studio</h2>
+## Environment Variables
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Create a `.env` file with the following:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+```env
+GROQ_API_KEY=your_groq_api_key
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+```
 
-</div>
+## Features
+
+- **Local Storage**: All data stays in your browser (IndexedDB).
+- **Whisper v3 Turbo**: High-speed word-level transcription via Groq.
+- **Gemini Diarization**: Intelligent speaker detection and segmentation.
+- **Interactive Editor**: Edit text and speaker labels with real-time sync.
+- **Export**: TXT, SRT, VTT formats supported.
+
+## Setup
+
+1. Install dependencies: `npm install`
+2. Run development server: `npm run dev`
+3. Open [http://localhost:3000](http://localhost:3000)

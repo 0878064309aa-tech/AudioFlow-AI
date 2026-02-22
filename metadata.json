@@ -1,0 +1,5 @@
+{
+  "name": "AudioFlow AI",
+  "description": "Professional audio transcription and segmentation tool with speaker diarization and word-level editing.",
+  "requestFramePermissions": []
+}
